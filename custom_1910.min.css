@@ -1,0 +1,108 @@
+html, body { color: #555 !important; }
+
+body { font: 1.6rem/1.5 "Work Sans", serif !important; }
+
+h1, .h1, h2, .h2, h3, .h3 { font-family: "Teko", serif !important; }
+
+.header.content, .container { width: 1680px !important; max-width: 100% !important; }
+
+.price-box.price { font-family: "Work Sans", serif !important; }
+
+header.page-header { background: #00185e url("https://www.sxsmobility.com/img/header_bg.jpg"); background-size: cover; background-repeat: no-repeat; }
+
+header.page-header .header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+header.page-header .header .logo { background: url("https://www.sxsmobility.com/img/logo.png"); height: 64px; background-size: contain; background-repeat: no-repeat; margin: 16px 0; }
+
+header.page-header .header .logo img { display: none; }
+
+header.page-header .header .navigation.sw-megamenu a { font-family: "Work Sans", serif !important; }
+
+header.page-header .header .navigation.sw-megamenu .submenu { z-index: 7; }
+
+header.page-header .header .header-right-area { border: none; display: -webkit-box; display: -ms-flexbox; display: flex; border: none !important; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+
+header.page-header .header .header-right-area .header-link-area { border: none !important; width: auto !important; }
+
+header.page-header .header .header-right-area .header-link-area .top-links-area { display: none; }
+
+header.page-header .header .header-right-area .switcher-area { width: auto !important; }
+
+header.page-header .header .header-right-area .switcher-area .search-area { display: none !important; }
+
+header.page-header .header .header-right-area .switcher-area .minicart-wrapper { max-width: none; }
+
+header.page-header .header .header-right-area .switcher-area .minicart-wrapper .action.showcart .counter.qty { font-family: "Work Sans", serif !important; width: auto; }
+
+header.page-header .header .header-right-area .switcher-area .minicart-wrapper .action.showcart .counter.qty .counter-label { display: none; }
+
+.page-wrapper > .breadcrumbs { font-family: "Work Sans", serif !important; }
+
+button.action.primary { background: #ff00f6 !important; color: #fff !important; font-family: "Work Sans", serif !important; font-size: 20px !important; font-weight: bold !important; border: none !important; border-radius: 32px; padding-left: 24px !important; padding-right: 24px !important; text-transform: uppercase; }
+
+.page-main .product-info-main .product .page-title { font-family: "Teko", serif !important; font-size: 4rem; font-size: 64px; }
+
+.page-main .product-info-main .prev-next-products, .page-main .product-info-main .moved-add-to-links, .page-main .product-info-main .product-social-links { display: none; }
+
+.page-main > .page-title-wrapper .page-title { font-size: 38px; }
+
+#home-1910 { padding: 0; overflow: hidden; }
+
+#home-1910 > .row { background-size: cover; background-position: center center; background-repeat: no-repeat; }
+
+@media (min-width: 768px) { #home-1910 > .row { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } }
+
+#home-1910 h1 { font-size: 92px; }
+
+#home-1910 ul { font-size: 20px; padding-left: 0px; list-style: none; }
+
+#home-1910 ul li:before { content: "\002B"; color: #ff00f6; font-weight: bold; font-size: 26px; padding-right: 4px; }
+
+#home-1910 a { color: #ff00f6; font-weight: bold; text-transform: uppercase; }
+
+#home-1910 .featprod-description, #home-1910 .featprod-image { padding-top: 32px; padding-bottom: 32px; }
+
+#home-1910 .featprod-description:before, #home-1910 .featprod-image:before { content: ""; background: url("https://www.sxsmobility.com/img/streak.png"); display: block; width: 10px; height: 300px; background-position: center center; position: absolute; top: 64px; left: -32px; }
+
+@media (min-width: 768px) { .page-layout-1column .product-info-main, .page-layout-2columns-left .product-info-main, .page-layout-2columns-right .product-info-main, .page-layout-3columns .product-info-main { width: 50% !important; }
+  .page-layout-1column .product.media, .page-layout-2columns-left .product.media, .page-layout-2columns-right .product.media, .page-layout-3columns .product.media { width: 45% !important; } }
+
+.footer-top { background: #fff !important; font-size: 20px; }
+
+.footer-top #skater, .footer-top #instagram-header, .footer-top #events { margin: 64px auto; }
+
+.footer-top > .container { width: 100% !important; }
+
+.footer-top > .container > .row > .col-md-12 { padding: 0; }
+
+.footer-top input.form-control { font-size: inherit; border-radius: 16px; height: auto; padding: 16px; font-family: inherit; }
+
+body #events, body .event { display: none; }
+
+body.cms-index-index { display: block; }
+
+.cms-index-index #skater { display: none; }
+
+@media (min-width: 480px) { #events { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } }
+
+.event { margin-bottom: 32px; }
+
+.event .location { font-size: 24px; }
+
+@media (min-width: 992px) { .event { margin-bottom: 0; }
+  .event .where-when { text-align: right; border-right: 1px gray solid; } }
+
+#footer-1910 { background: url("https://www.sxsmobility.com/img/party.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 20vh; }
+
+#footer-1910 #social { min-height: 330px; background: url("https://www.sxsmobility.com/img/social_bg.png"); background-position: 72% 0; background-repeat: no-repeat; }
+
+@media (min-width: 768px) { #footer-1910 #social { background-position: top center; } }
+
+.product-item-inner.actions-secondary, .footer-middle { display: none; }
+
+#footer-nav { color: #fff; margin-bottom: 64px; }
+
+#footer-nav a { color: inherit; }
+
+@media (min-width: 768px) { #footer-nav { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; } }
+/*# sourceMappingURL=custom_1910.min.css.map */
