@@ -1397,7 +1397,7 @@ body > p {
 .sidebar .custom-block {
   margin-bottom: 30px;
   padding-bottom: 40px;
-  background: url(../images/bkg_4.png) bottom no-repeat;
+  background: url(https://sxsmobility.com/images/bkg_4.png) bottom no-repeat;
 }
 
 .products.wrapper .product-item .product-item-photo .qty-box {
@@ -1493,7 +1493,7 @@ body > p {
     border-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    background: url(../images/slider-bar.png) right 10px no-repeat;
+    background: url(https://sxsmobility.com/images/slider-bar.png) right 10px no-repeat;
   }
   .filterproducts-tab .data.items:before, .filterproducts-tab .data.items:after {
     content: '';
@@ -1767,7 +1767,7 @@ body > p {
 
 body.boxed {
   padding: 24px 0 17px;
-  background: url(../images/boxed_bg.png) repeat;
+  background: url(https://sxsmobility.com/images/boxed_bg.png) repeat;
 }
 
 body.boxed .page-wrapper {
@@ -6403,7 +6403,7 @@ header.page-header.type15 {
 
 /*
 .page-header.type15 {
-    background-image: url(../images/page-header2.jpg);
+    background-image: url(https://sxsmobility.com/images/page-header2.jpg);
     background-repeat: repeat;
 }
 */
@@ -8476,7 +8476,7 @@ header.page-header.type15 .minicart-wrapper .minicart-items .product-item-detail
   }
 }
 
-/* 200107-0109 */
+/* 200107_0125 */
 html,
 body {
   color: #555 !important;
