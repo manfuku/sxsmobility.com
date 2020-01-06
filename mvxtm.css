@@ -8476,7 +8476,7 @@ header.page-header.type15 .minicart-wrapper .minicart-items .product-item-detail
   }
 }
 
-/* 20.01.06-23.22 */
+/* 200107-0109 */
 html,
 body {
   color: #555 !important;
@@ -8538,6 +8538,10 @@ header.page-header .header .navigation.sw-megamenu a {
 
 header.page-header .header .navigation.sw-megamenu .submenu {
   z-index: 7;
+}
+
+header.page-header .header .navigation.sw-megamenu .submenu .subchildmenu {
+  float: right;
 }
 
 header.page-header .header .header-right-area {
@@ -8677,6 +8681,18 @@ button.action.primary {
   left: -32px;
 }
 
+.product-info-main:before {
+  content: "";
+  background: url("https://sxsmobility.com/img/streak.png");
+  display: block;
+  width: 10px;
+  height: 300px;
+  background-position: center center;
+  position: absolute;
+  top: 64px;
+  left: -32px;
+}
+
 @media (min-width: 768px) {
   .page-layout-1column .product-info-main,
   .page-layout-2columns-left .product-info-main,
@@ -8721,7 +8737,7 @@ button.action.primary {
 
 body #events,
 body .event {
-  display: none;
+  color: #555;
 }
 
 body.cms-index-index {

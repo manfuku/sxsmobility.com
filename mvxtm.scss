@@ -8,7 +8,7 @@ $font-secondary: "Teko", serif !important;
 //$domain: "https://fnshr.clothing";
 $domain: "https://sxsmobility.com";
 
-/* 20.01.06-23.22 */
+/* 200107-0109 */
 
 html,
 body {
@@ -65,6 +65,10 @@ header.page-header {
 			.submenu {
 				//top: 105px;
 				z-index: 7;
+				
+				.subchildmenu  {
+					float: right;
+				}
 			}
 		}
 		.header-right-area {
@@ -198,6 +202,20 @@ button.action.primary {
 	}
 }
 
+.product-info-main {
+	&:before {
+		content: "";
+		background:url("#{$domain}/img/streak.png");
+		display: block;
+		width: 10px;
+		height: 300px;
+		background-position: center center;
+		position: absolute;
+		top: 64px;
+		left: -32px;
+	}
+}
+
 @media (min-width: 768px) {
 	.page-layout-1column,
 	.page-layout-2columns-left,
@@ -242,12 +260,16 @@ button.action.primary {
 body {
 	#events,
 	.event {
-		display: none;
+		//display: none;
+	
+	    color: #555;
+
 	}
 	&.cms-index-index {
 		display: block;
 	}
 }
+
 .cms-index-index #skater {
 	display: none;
 }
