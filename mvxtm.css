@@ -8505,7 +8505,7 @@ h3,
 }
 
 header.page-header {
-  background: #00185e url("/img/header_bg.jpg");
+  background: #00185e url("https://sxsmobility.com/img/header_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -8520,7 +8520,7 @@ header.page-header .header {
 }
 
 header.page-header .header .logo {
-  background: url("/img/logo.png");
+  background: url("https://sxsmobility.com/img/logo.png");
   height: 64px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -8666,7 +8666,7 @@ button.action.primary {
 
 #home-1910 .featprod-description:before {
   content: "";
-  background: url("/img/streak.png");
+  background: url("https://sxsmobility.com/img/streak.png");
   display: block;
   width: 10px;
   height: 300px;
@@ -8761,7 +8761,7 @@ body.cms-index-index {
 }
 
 #footer-1910 {
-  background: url("/img/party.jpg");
+  background: url("https://sxsmobility.com/img/party.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -8770,7 +8770,7 @@ body.cms-index-index {
 
 #footer-1910 #social {
   min-height: 330px;
-  background: url("/img/social_bg.png");
+  background: url("https://sxsmobility.com/img/social_bg.png");
   background-position: 72% 0;
   background-repeat: no-repeat;
 }
