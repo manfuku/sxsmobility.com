@@ -1,4 +1,3 @@
-
 $font-primary: "Work Sans", serif !important;
 $font-secondary: "Teko", serif !important;
 $domain: "https://sxsmobility.com";
@@ -7,6 +6,22 @@ $domain: "https://sxsmobility.com";
 
 /* 200107_0130 */
 
+@mixin product-description {
+	ul {
+		font-size: 20px;
+		padding-left: 0px;
+		list-style: none;
+		li {
+			&:before {
+				content: "\002B";
+				color: #ff00f6;
+				font-weight: bold;
+				font-size: 26px;
+				padding-right: 4px;
+			}
+		}
+	}
+}
 
 html,
 body {
@@ -63,7 +78,7 @@ header.page-header {
 			.submenu {
 				//top: 105px;
 				z-index: 7;
-				
+
 				.subchildmenu li {
 					float: right;
 				}
@@ -148,15 +163,14 @@ button.action.primary {
 #home-1910 {
 	padding: 0;
 	overflow: hidden;
-	
-		> .row {
-			background-size: cover;
-			background-position: center center;
-			background-repeat: no-repeat;
-			@media (min-width: 768px) {
-						display: flex;
+
+	> .row {
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		@media (min-width: 768px) {
+			display: flex;
 			align-items: center;
-			
 		}
 	}
 	h1 {
@@ -182,13 +196,12 @@ button.action.primary {
 		text-transform: uppercase;
 	}
 	//.featprod-image,
-	.featprod-description
-	 {
+	.featprod-description {
 		padding-top: 32px;
 		padding-bottom: 32px;
 		&:before {
 			content: "";
-			background:url("#{$domain}/img/streak.png");
+			background: url("#{$domain}/img/streak.png");
 			display: block;
 			width: 10px;
 			height: 300px;
@@ -204,7 +217,7 @@ button.action.primary {
 	position: relative;
 	&:before {
 		content: "";
-		background:url("#{$domain}/img/streak.png");
+		background: url("#{$domain}/img/streak.png");
 		display: block;
 		width: 10px;
 		height: 300px;
@@ -212,6 +225,23 @@ button.action.primary {
 		position: absolute;
 		top: 24px;
 		left: -32px;
+	}
+
+	.product.attribute.overview {
+		ul {
+			font-size: 20px;
+			padding-left: 0px;
+			list-style: none;
+			li {
+				&:before {
+					content: "\002B";
+					color: #ff00f6;
+					font-weight: bold;
+					font-size: 26px;
+					padding-right: 4px;
+				}
+			}
+		}
 	}
 }
 
@@ -260,9 +290,8 @@ body {
 	#events,
 	.event {
 		//display: none;
-	
-	    color: #555;
 
+		color: #555;
 	}
 	&.cms-index-index {
 		display: block;

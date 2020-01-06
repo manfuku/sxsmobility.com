@@ -8697,6 +8697,20 @@ button.action.primary {
   left: -32px;
 }
 
+.product-info-main .product.attribute.overview ul {
+  font-size: 20px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+.product-info-main .product.attribute.overview ul li:before {
+  content: "\002B";
+  color: #ff00f6;
+  font-weight: bold;
+  font-size: 26px;
+  padding-right: 4px;
+}
+
 @media (min-width: 768px) {
   .page-layout-1column .product-info-main,
   .page-layout-2columns-left .product-info-main,
