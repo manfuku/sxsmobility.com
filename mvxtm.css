@@ -8476,7 +8476,7 @@ header.page-header.type15 .minicart-wrapper .minicart-items .product-item-detail
   }
 }
 
-/* 200107_0125 */
+/* 200107_0130 */
 html,
 body {
   color: #555 !important;
@@ -8540,7 +8540,7 @@ header.page-header .header .navigation.sw-megamenu .submenu {
   z-index: 7;
 }
 
-header.page-header .header .navigation.sw-megamenu .submenu .subchildmenu {
+header.page-header .header .navigation.sw-megamenu .submenu .subchildmenu li {
   float: right;
 }
 
