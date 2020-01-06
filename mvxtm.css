@@ -8681,6 +8681,10 @@ button.action.primary {
   left: -32px;
 }
 
+.product-info-main {
+  position: relative;
+}
+
 .product-info-main:before {
   content: "";
   background: url("https://sxsmobility.com/img/streak.png");
@@ -8689,7 +8693,7 @@ button.action.primary {
   height: 300px;
   background-position: center center;
   position: absolute;
-  top: 64px;
+  top: 24px;
   left: -32px;
 }
 
