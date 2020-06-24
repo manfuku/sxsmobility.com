@@ -78,6 +78,7 @@ header.page-header {
 			.submenu {
 				//top: 105px;
 				z-index: 7;
+				background: rgba(#fff,90);
 
 				.subchildmenu li {
 					float: right;
@@ -172,6 +173,13 @@ button.action.primary {
 			display: flex;
 			align-items: center;
 		}
+
+		&:first-child > * > img {  //selina
+			width: 100%;
+			height: auto;
+		}
+
+	
 	}
 	h1 {
 		font-size: 92px;
